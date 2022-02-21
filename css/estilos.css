@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #6be2ab;
+}
+header{
+    background: #ABEBC6;
+}
+
+header h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav{
+    background-color: #6be2ab;
+    min-height: 2em;
+}
+
+nav p{
+    display: inline;
+}
+
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color: #111111;
+    /*background-color: #eb1a1a;*/
+    margin: 0.3em;
+}
+
+nav a:hover, nav a:active{
+    text-decoration: none;
+    color: #46d8c4;
+    background-color: #3f7af8;
+    margin: 0.3em;
+}
+
+section{
+    width: 75%;
+    background-color: #ABEBC6;
+    float: left;
+}
+section h1{
+    text-align: center;
+    padding: 0.5em;
+    color: #42422f;
+    font-size: 1.4em;
+}
+section h2{
+    text-align: center;
+    padding: 0.5em;
+    color: #130ff8;
+    font-size: 1.2em;
+}
+section p{
+    text-align: left;
+    padding: 0.5em;
+    color: #1F618D;
+    font-size: 1.0em;
+}
+
+article{
+    margin: 0.5em 3em;
+    padding: 0.5em 2em;
+    background-color: #000;
+    border: 2px solid blue;
+}
+article p{
+    text-align: justify;
+}
+/*Imagenes*/
+#img_artU img{
+    text-align: center;
+    width: 9%;
+    height: 9%;
+}
+
+aside{
+    width: 25%;
+    float: left;
+}
+
+#Anuncio01{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid blue;
+    background: #000;
+}
+
+#Anuncio01 h1{
+    font-size: 1.1 em;
+    text-align: left;
+    padding: 0.5em 0em;
+    color: #bfbeff;
+}
+
+#Anuncio01 h2{
+    font-size: 1.5 em;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: #8785ff;
+}
+
+#Anuncio01 p{
+    font-size: 1.9 em;
+    padding: 0.2em 1em;
+    color: #2c29ff;
+}
+
+footer{
+    clear: both;
+    background-color: #ABEBC6;
+}
+footer h1{
+    text-align: center;
+    font-size: 1.4em;
+    color: navy;
+    padding: 0.7em;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 1.4em;
+    color: navy;
+    padding: 1.8em;
+}
+
+/*Arroba medias*/
+@media (max-width: 700px){
+    aside {float: none; display: flex; width: 70%; display: contents;}
+    section {display: contents;}
+    nav {background-color: #58D68D; text-align: center;}
+    header h1{font-size: 1.2em; color: #000;}
+}
